@@ -7,6 +7,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'dashboard/**'
 
 jobs:
   lighthouse:
@@ -28,11 +30,24 @@ jobs:
       - name: Run Lighthouse CI
         run: lhci autorun
 
+      - name: Build visual dashboard
+        if: always()
+        run: node scripts/build-dashboard.js
+
       - name: Upload Lighthouse reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: lighthouse-reports-${{ github.run_number }}
           path: lhci-reports/
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Upload visual dashboard
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-quality-dashboard-${{ github.run_number }}
+          path: dashboard/
           if-no-files-found: warn
           retention-days: 90

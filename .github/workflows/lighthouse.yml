@@ -1,0 +1,38 @@
+name: Lighthouse CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5 * * *'
+  push:
+    branches:
+      - main
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Lighthouse CI
+        run: npm install -g @lhci/cli@0.14.x
+
+      - name: Run Lighthouse CI
+        run: lhci autorun
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lighthouse-reports-${{ github.run_number }}
+          path: lhci-reports/
+          if-no-files-found: warn
+          retention-days: 90

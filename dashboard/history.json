@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-10-02T10:06:55.791Z",
+    "run": "7",
+    "performance": 82,
+    "seo": 100,
+    "accessibility": 96,
+    "bestPractices": 100,
+    "lcp": 1782.6129999999998,
+    "bytes": 527911,
+    "errors": 18,
+    "warnings": 102
+  }
+]

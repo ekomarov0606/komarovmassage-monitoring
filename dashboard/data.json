@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-10-02T10:06:55.799Z",
+  "generatedAt": "2026-10-02T13:59:56.773Z",
   "summary": {
-    "performance": 82,
+    "performance": 83,
     "seo": 100,
     "accessibility": 96,
     "bestPractices": 100,
-    "lcp": 1782.6129999999998,
+    "lcp": 1757.084,
     "bytes": 527911,
     "errors": 18,
-    "warnings": 102
+    "warnings": 101
   },
   "pages": [
     {
       "url": "https://komarovmassage.lv/en/",
-      "label": "en",
+      "label": "EN — Главная",
       "performance": 75,
       "seo": 100,
       "accessibility": 91,
       "bestPractices": 100,
-      "lcp": 2381.8324999999995,
+      "lcp": 2349.3889999999997,
       "cls": 0.004803526347131231,
-      "bytes": 4353391,
+      "bytes": 4353368,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -34,8 +34,8 @@
         },
         {
           "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.9/link-name).",
+          "title": "У ссылок отсутствуют доступные названия",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -45,7 +45,7 @@
         {
           "id": "target-size",
           "title": "Touch targets do not have sufficient size or spacing.",
-          "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.9/target-size).",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -55,7 +55,7 @@
         {
           "id": "aria-allowed-role",
           "title": "Uses ARIA roles on incompatible elements",
-          "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.9/aria-allowed-role).",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -66,8 +66,8 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
           "displayValue": "Potential savings of 570 KiB",
           "score": 0,
           "categories": [
@@ -76,8 +76,8 @@
         },
         {
           "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
           "displayValue": "Potential savings of 503 KiB",
           "score": 0,
           "categories": [
@@ -87,7 +87,7 @@
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
+          "description": "",
           "displayValue": "28 requests not served via HTTP/2",
           "score": 0,
           "categories": [
@@ -96,28 +96,18 @@
         },
         {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "2.1 s",
-          "score": 21,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "dom-size",
-          "title": "Avoid an excessive DOM size",
-          "description": "A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn how to avoid an excessive DOM size](https://developer.chrome.com/docs/lighthouse/performance/dom-size/).",
-          "displayValue": "1,005 elements",
-          "score": 50,
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "2.2 s",
+          "score": 22,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads",
-          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
+          "title": "Большой общий вес страницы",
+          "description": "",
           "displayValue": "Total size was 4,251 KiB",
           "score": 50,
           "categories": [
@@ -125,10 +115,40 @@
           ]
         },
         {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "11 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "font-display",
-          "title": "Ensure text remains visible during webfont load",
-          "description": "Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading. [Learn more about `font-display`](https://developer.chrome.com/docs/lighthouse/performance/font-display/).",
+          "title": "Настройте отображение веб-шрифтов",
+          "description": "",
           "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 2,567 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "dom-size",
+          "title": "Слишком большой DOM",
+          "description": "",
+          "displayValue": "1,005 elements",
           "score": 50,
           "categories": [
             "performance"
@@ -137,18 +157,8 @@
         {
           "id": "unsized-images",
           "title": "Image elements do not have explicit `width` and `height`",
-          "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
+          "description": "",
           "displayValue": "",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "2.4 s",
           "score": 50,
           "categories": [
             "performance"
@@ -157,7 +167,7 @@
         {
           "id": "unminified-css",
           "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+          "description": "",
           "displayValue": "Potential savings of 61 KiB",
           "score": 50,
           "categories": [
@@ -167,7 +177,7 @@
         {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
+          "description": "",
           "displayValue": "Potential savings of 15 KiB",
           "score": 50,
           "categories": [
@@ -175,31 +185,21 @@
           ]
         },
         {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 2,567 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "11 resources found",
-          "score": 50,
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.3 s",
+          "score": 51,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "2.1 s",
-          "score": 52,
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "2.2 s",
+          "score": 54,
           "categories": [
             "performance"
           ]
@@ -208,19 +208,19 @@
     },
     {
       "url": "https://komarovmassage.lv/en/certificates",
-      "label": "en/certificates",
+      "label": "EN — Сертификаты",
       "performance": 86,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1782.5810000000004,
+      "lcp": 1750.513,
       "cls": 0.0714534213616705,
       "bytes": 527911,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -231,9 +231,29 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
           "displayValue": "Potential savings of 172 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 110 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 133 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -242,28 +262,8 @@
         {
           "id": "unminified-css",
           "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+          "description": "",
           "displayValue": "Potential savings of 35 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 133 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 110 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -272,7 +272,7 @@
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
+          "description": "",
           "displayValue": "11 requests not served via HTTP/2",
           "score": 0,
           "categories": [
@@ -280,19 +280,9 @@
           ]
         },
         {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 15 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
           "displayValue": "8 resources found",
           "score": 50,
           "categories": [
@@ -300,31 +290,41 @@
           ]
         },
         {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 15 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "1.5 s",
-          "score": 57,
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.4 s",
+          "score": 59,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "1.8 s",
-          "score": 70,
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 72,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "1.5 s",
-          "score": 84,
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.4 s",
+          "score": 85,
           "categories": [
             "performance"
           ]
@@ -333,19 +333,19 @@
     },
     {
       "url": "https://komarovmassage.lv/en/vyezd",
-      "label": "en/vyezd",
+      "label": "EN — Выезд на дом",
       "performance": 89,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1494.146,
+      "lcp": 1479.8339999999998,
       "cls": 0.02154149171577006,
       "bytes": 301689,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -356,8 +356,8 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
           "displayValue": "Potential savings of 152 KiB",
           "score": 0,
           "categories": [
@@ -365,19 +365,9 @@
           ]
         },
         {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
-          "displayValue": "Potential savings of 35 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
           "displayValue": "Potential savings of 115 KiB",
           "score": 0,
           "categories": [
@@ -385,309 +375,9 @@
           ]
         },
         {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
-          "displayValue": "9 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 13 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "7 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "1.5 s",
-          "score": 56,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "1.5 s",
-          "score": 80,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "1.5 s",
-          "score": 83,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
-      "url": "https://komarovmassage.lv/lv/",
-      "label": "lv",
-      "performance": 74,
-      "seo": 100,
-      "accessibility": 91,
-      "bestPractices": 100,
-      "lcp": 2537.2964999999986,
-      "cls": 0.006094268771658546,
-      "bytes": 4410545,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.9/link-name).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.9/target-size).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "aria-allowed-role",
-          "title": "Uses ARIA roles on incompatible elements",
-          "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.9/aria-allowed-role).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 571 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "unminified-css",
           "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
-          "displayValue": "Potential savings of 61 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 503 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
-          "displayValue": "26 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "2.1 s",
-          "score": 21,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "2.6 s",
-          "score": 45,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "dom-size",
-          "title": "Avoid an excessive DOM size",
-          "description": "A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn how to avoid an excessive DOM size](https://developer.chrome.com/docs/lighthouse/performance/dom-size/).",
-          "displayValue": "1,005 elements",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads",
-          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
-          "displayValue": "Total size was 4,307 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "font-display",
-          "title": "Ensure text remains visible during webfont load",
-          "description": "Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading. [Learn more about `font-display`](https://developer.chrome.com/docs/lighthouse/performance/font-display/).",
-          "displayValue": "",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
-          "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
-          "displayValue": "",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 15 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 2,538 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "11 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "2.1 s",
-          "score": 52,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "interactive",
-          "title": "Time to Interactive",
-          "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
-          "displayValue": "2.6 s",
-          "score": 88,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
-      "url": "https://komarovmassage.lv/lv/certificates",
-      "label": "lv/certificates",
-      "performance": 86,
-      "seo": 100,
-      "accessibility": 98,
-      "bestPractices": 100,
-      "lcp": 1782.6129999999998,
-      "cls": 0.07349510549731196,
-      "bytes": 525621,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 172 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+          "description": "",
           "displayValue": "Potential savings of 35 KiB",
           "score": 0,
           "categories": [
@@ -695,31 +385,21 @@
           ]
         },
         {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 133 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 110 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
-          "displayValue": "11 requests not served via HTTP/2",
+          "description": "",
+          "displayValue": "9 requests not served via HTTP/2",
           "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "7 resources found",
+          "score": 50,
           "categories": [
             "performance"
           ]
@@ -727,18 +407,8 @@
         {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 15 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "8 resources found",
+          "description": "",
+          "displayValue": "Potential savings of 13 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -746,8 +416,8 @@
         },
         {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
           "displayValue": "1.5 s",
           "score": 57,
           "categories": [
@@ -756,18 +426,18 @@
         },
         {
           "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "1.8 s",
-          "score": 70,
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 81,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+          "title": "Индекс скорости загрузки",
+          "description": "",
           "displayValue": "1.5 s",
           "score": 84,
           "categories": [
@@ -777,135 +447,20 @@
       ]
     },
     {
-      "url": "https://komarovmassage.lv/lv/vyezd",
-      "label": "lv/vyezd",
-      "performance": 89,
-      "seo": 100,
-      "accessibility": 98,
-      "bestPractices": 100,
-      "lcp": 1491.2060000000001,
-      "cls": 0.01030885534509964,
-      "bytes": 352626,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 152 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
-          "displayValue": "Potential savings of 35 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 115 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
-          "displayValue": "9 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 13 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "7 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "1.5 s",
-          "score": 56,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "1.5 s",
-          "score": 81,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "1.5 s",
-          "score": 83,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
-      "url": "https://komarovmassage.lv/ru/",
-      "label": "ru",
-      "performance": 74,
+      "url": "https://komarovmassage.lv/lv/",
+      "label": "LV — Главная",
+      "performance": 76,
       "seo": 100,
       "accessibility": 91,
       "bestPractices": 100,
-      "lcp": 2538.558,
-      "cls": 0.003798252610068159,
-      "bytes": 4456087,
+      "lcp": 2481.8455000000004,
+      "cls": 0.006046963207597008,
+      "bytes": 4410545,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -914,8 +469,8 @@
         },
         {
           "id": "link-name",
-          "title": "Links do not have a discernible name",
-          "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn how to make links accessible](https://dequeuniversity.com/rules/axe/4.9/link-name).",
+          "title": "У ссылок отсутствуют доступные названия",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -925,7 +480,7 @@
         {
           "id": "target-size",
           "title": "Touch targets do not have sufficient size or spacing.",
-          "description": "Touch targets with sufficient size and spacing help users who may have difficulty targeting small controls to activate the targets. [Learn more about touch targets](https://dequeuniversity.com/rules/axe/4.9/target-size).",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -935,7 +490,7 @@
         {
           "id": "aria-allowed-role",
           "title": "Uses ARIA roles on incompatible elements",
-          "description": "Many HTML elements can only be assigned certain ARIA roles. Using ARIA roles where they are not allowed can interfere with the accessibility of the web page. [Learn more about ARIA roles](https://dequeuniversity.com/rules/axe/4.9/aria-allowed-role).",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -946,19 +501,9 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 582 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
-          "displayValue": "Potential savings of 61 KiB",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 571 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -966,8 +511,8 @@
         },
         {
           "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
           "displayValue": "Potential savings of 503 KiB",
           "score": 0,
           "categories": [
@@ -977,8 +522,8 @@
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
-          "displayValue": "26 requests not served via HTTP/2",
+          "description": "",
+          "displayValue": "28 requests not served via HTTP/2",
           "score": 0,
           "categories": [
             "performance"
@@ -986,39 +531,39 @@
         },
         {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "2.2 s",
-          "score": 21,
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.9 s",
+          "score": 28,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
           "displayValue": "2.5 s",
-          "score": 45,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "dom-size",
-          "title": "Avoid an excessive DOM size",
-          "description": "A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn how to avoid an excessive DOM size](https://developer.chrome.com/docs/lighthouse/performance/dom-size/).",
-          "displayValue": "1,005 elements",
-          "score": 50,
+          "score": 47,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "total-byte-weight",
-          "title": "Avoid enormous network payloads",
-          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
-          "displayValue": "Total size was 4,352 KiB",
+          "title": "Большой общий вес страницы",
+          "description": "",
+          "displayValue": "Total size was 4,337 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "11 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -1026,9 +571,29 @@
         },
         {
           "id": "font-display",
-          "title": "Ensure text remains visible during webfont load",
-          "description": "Leverage the `font-display` CSS feature to ensure text is user-visible while webfonts are loading. [Learn more about `font-display`](https://developer.chrome.com/docs/lighthouse/performance/font-display/).",
+          "title": "Настройте отображение веб-шрифтов",
+          "description": "",
           "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 2,567 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "dom-size",
+          "title": "Слишком большой DOM",
+          "description": "",
+          "displayValue": "1,005 elements",
           "score": 50,
           "categories": [
             "performance"
@@ -1037,8 +602,18 @@
         {
           "id": "unsized-images",
           "title": "Image elements do not have explicit `width` and `height`",
-          "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
+          "description": "",
           "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 61 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1047,7 +622,7 @@
         {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
+          "description": "",
           "displayValue": "Potential savings of 15 KiB",
           "score": 50,
           "categories": [
@@ -1055,41 +630,21 @@
           ]
         },
         {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 2,538 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "11 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "2.2 s",
-          "score": 52,
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.9 s",
+          "score": 61,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "interactive",
-          "title": "Time to Interactive",
-          "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+          "title": "Время до полной интерактивности",
+          "description": "",
           "displayValue": "2.5 s",
-          "score": 88,
+          "score": 89,
           "categories": [
             "performance"
           ]
@@ -1097,20 +652,20 @@
       ]
     },
     {
-      "url": "https://komarovmassage.lv/ru/certificates",
-      "label": "ru/certificates",
-      "performance": 79,
+      "url": "https://komarovmassage.lv/lv/certificates",
+      "label": "LV — Сертификаты",
+      "performance": 86,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2000.6900000000003,
-      "cls": 0.1435740464420669,
-      "bytes": 555130,
+      "lcp": 1757.084,
+      "cls": 0.07349510549731196,
+      "bytes": 525621,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -1121,9 +676,29 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 176 KiB",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 172 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 110 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 133 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1132,38 +707,8 @@
         {
           "id": "unminified-css",
           "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+          "description": "",
           "displayValue": "Potential savings of 35 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 15 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-responsive-images",
-          "title": "Properly size images",
-          "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn how to size images](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images/).",
-          "displayValue": "Potential savings of 133 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 110 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1172,7 +717,7 @@
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
+          "description": "",
           "displayValue": "11 requests not served via HTTP/2",
           "score": 0,
           "categories": [
@@ -1181,8 +726,8 @@
         },
         {
           "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
           "displayValue": "8 resources found",
           "score": 50,
           "categories": [
@@ -1190,41 +735,41 @@
           ]
         },
         {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 15 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "1.6 s",
-          "score": 51,
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 58,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "2.0 s",
-          "score": 63,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "cumulative-layout-shift",
-          "title": "Cumulative Layout Shift",
-          "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
-          "displayValue": "0.144",
-          "score": 78,
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.8 s",
+          "score": 71,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "1.6 s",
-          "score": 80,
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 85,
           "categories": [
             "performance"
           ]
@@ -1232,20 +777,20 @@
       ]
     },
     {
-      "url": "https://komarovmassage.lv/ru/vyezd",
-      "label": "ru/vyezd",
-      "performance": 89,
+      "url": "https://komarovmassage.lv/lv/vyezd",
+      "label": "LV — Выезд на дом",
+      "performance": 90,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1488.655,
-      "cls": 0.01250485596461869,
-      "bytes": 346844,
+      "lcp": 1457.3599999999997,
+      "cls": 0.010022422170634185,
+      "bytes": 352626,
       "errors": [
         {
           "id": "heading-order",
-          "title": "Heading elements are not in a sequentially-descending order",
-          "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more about heading order](https://dequeuniversity.com/rules/axe/4.9/heading-order).",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
           "displayValue": "",
           "score": 0,
           "categories": [
@@ -1256,9 +801,19 @@
       "warnings": [
         {
           "id": "uses-text-compression",
-          "title": "Enable text compression",
-          "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more about text compression](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression/).",
-          "displayValue": "Potential savings of 153 KiB",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 152 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 115 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1267,18 +822,8 @@
         {
           "id": "unminified-css",
           "title": "Minify CSS",
-          "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+          "description": "",
           "displayValue": "Potential savings of 35 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Reduce unused CSS",
-          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
-          "displayValue": "Potential savings of 115 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1287,8 +832,318 @@
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
-          "description": "HTTP/2 offers many benefits over HTTP/1.1, including binary headers and multiplexing. [Learn more about HTTP/2](https://developer.chrome.com/docs/lighthouse/best-practices/uses-http2/).",
+          "description": "",
           "displayValue": "9 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "7 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 13 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 58,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 82,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.5 s",
+          "score": 85,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/ru/",
+      "label": "RU — Главная",
+      "performance": 75,
+      "seo": 100,
+      "accessibility": 91,
+      "bestPractices": 100,
+      "lcp": 2465.6005000000005,
+      "cls": 0.003798252610068159,
+      "bytes": 4456078,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "link-name",
+          "title": "У ссылок отсутствуют доступные названия",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "aria-allowed-role",
+          "title": "Uses ARIA roles on incompatible elements",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 582 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 503 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "26 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "2.0 s",
+          "score": 28,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.5 s",
+          "score": 48,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "total-byte-weight",
+          "title": "Большой общий вес страницы",
+          "description": "",
+          "displayValue": "Total size was 4,352 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "11 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "font-display",
+          "title": "Настройте отображение веб-шрифтов",
+          "description": "",
+          "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 2,538 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "dom-size",
+          "title": "Слишком большой DOM",
+          "description": "",
+          "displayValue": "1,005 elements",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unsized-images",
+          "title": "Image elements do not have explicit `width` and `height`",
+          "description": "",
+          "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 61 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 15 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "2.4 s",
+          "score": 55,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/ru/certificates",
+      "label": "RU — Сертификаты",
+      "performance": 78,
+      "seo": 100,
+      "accessibility": 98,
+      "bestPractices": 100,
+      "lcp": 2040.7809999999995,
+      "cls": 0.1435740464420669,
+      "bytes": 555130,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 176 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 110 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 133 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 35 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1297,18 +1152,28 @@
         {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
-          "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn how to minify JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unminified-javascript/).",
-          "displayValue": "Potential savings of 13 KiB",
-          "score": 50,
+          "description": "",
+          "displayValue": "Potential savings of 15 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "11 requests not served via HTTP/2",
+          "score": 0,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "uses-long-cache-ttl",
-          "title": "Serve static assets with an efficient cache policy",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about efficient cache policies](https://developer.chrome.com/docs/lighthouse/performance/uses-long-cache-ttl/).",
-          "displayValue": "7 resources found",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "8 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -1316,30 +1181,155 @@
         },
         {
           "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
-          "displayValue": "1.5 s",
-          "score": 56,
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 50,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
-          "displayValue": "1.5 s",
-          "score": 81,
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.1 s",
+          "score": 61,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "cumulative-layout-shift",
+          "title": "Смещение элементов страницы (CLS)",
+          "description": "",
+          "displayValue": "0.144",
+          "score": 78,
           "categories": [
             "performance"
           ]
         },
         {
           "id": "speed-index",
-          "title": "Speed Index",
-          "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
-          "displayValue": "1.5 s",
-          "score": 83,
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 79,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/ru/vyezd",
+      "label": "RU — Выезд на дом",
+      "performance": 90,
+      "seo": 100,
+      "accessibility": 98,
+      "bestPractices": 100,
+      "lcp": 1441.606,
+      "cls": 0.014584360654548777,
+      "bytes": 346844,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 153 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 115 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 35 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "9 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "7 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 13 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.4 s",
+          "score": 59,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.4 s",
+          "score": 82,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.4 s",
+          "score": 85,
           "categories": [
             "performance"
           ]
@@ -1359,6 +1349,18 @@
       "bytes": 527911,
       "errors": 18,
       "warnings": 102
+    },
+    {
+      "timestamp": "2026-10-02T13:59:56.751Z",
+      "run": "8",
+      "performance": 83,
+      "seo": 100,
+      "accessibility": 96,
+      "bestPractices": 100,
+      "lcp": 1757.084,
+      "bytes": 527911,
+      "errors": 18,
+      "warnings": 101
     }
   ]
 }

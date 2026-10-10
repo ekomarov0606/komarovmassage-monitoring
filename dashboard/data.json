@@ -1,40 +1,30 @@
 {
-  "generatedAt": "2026-10-09T11:45:16.617Z",
+  "generatedAt": "2026-10-10T11:02:16.844Z",
   "summary": {
-    "performance": 74,
+    "performance": 75,
     "seo": 100,
-    "accessibility": 96,
+    "accessibility": 97,
     "bestPractices": 100,
-    "lcp": 2187.13,
-    "bytes": 527899,
-    "errors": 18,
+    "lcp": 2173.296,
+    "bytes": 664777,
+    "errors": 15,
     "warnings": 104
   },
   "pages": [
     {
       "url": "https://komarovmassage.lv/en/",
       "label": "EN — Главная",
-      "performance": 68,
+      "performance": 71,
       "seo": 100,
-      "accessibility": 91,
+      "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 3002.7965000000004,
-      "cls": 0.004803526347131231,
-      "bytes": 4353351,
+      "lcp": 2644.71,
+      "cls": 0.005565106738513865,
+      "bytes": 4198008,
       "errors": [
         {
           "id": "heading-order",
           "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "link-name",
-          "title": "У ссылок отсутствуют доступные названия",
           "description": "",
           "displayValue": "",
           "score": 0,
@@ -68,7 +58,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 570 KiB",
+          "displayValue": "Potential savings of 591 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -78,17 +68,27 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 503 KiB",
+          "displayValue": "Potential savings of 522 KiB",
           "score": 0,
           "categories": [
             "performance"
           ]
         },
         {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 61 KiB",
+          "displayValue": "Potential savings of 66 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -98,7 +98,7 @@
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
-          "displayValue": "28 requests not served via HTTP/2",
+          "displayValue": "29 requests not served via HTTP/2",
           "score": 0,
           "categories": [
             "performance"
@@ -109,17 +109,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.6 s",
-          "score": 12,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Отображение самого крупного элемента (LCP)",
-          "description": "",
-          "displayValue": "3.0 s",
-          "score": 33,
+          "score": 13,
           "categories": [
             "performance"
           ]
@@ -129,7 +119,17 @@
           "title": "Индекс скорости загрузки",
           "description": "",
           "displayValue": "2.6 s",
-          "score": 39,
+          "score": 40,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.7 s",
+          "score": 42,
           "categories": [
             "performance"
           ]
@@ -138,7 +138,7 @@
           "id": "total-byte-weight",
           "title": "Большой общий вес страницы",
           "description": "",
-          "displayValue": "Total size was 4,251 KiB",
+          "displayValue": "Total size was 4,100 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -148,7 +148,7 @@
           "id": "uses-long-cache-ttl",
           "title": "Настройте более длительное кэширование ресурсов",
           "description": "",
-          "displayValue": "11 resources found",
+          "displayValue": "12 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -168,7 +168,7 @@
           "id": "uses-responsive-images",
           "title": "Некоторые изображения имеют избыточный размер",
           "description": "",
-          "displayValue": "Potential savings of 2,567 KiB",
+          "displayValue": "Potential savings of 2,551 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -178,17 +178,7 @@
           "id": "dom-size",
           "title": "Слишком большой DOM",
           "description": "",
-          "displayValue": "1,005 elements",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
-          "description": "",
-          "displayValue": "",
+          "displayValue": "1,114 elements",
           "score": 50,
           "categories": [
             "performance"
@@ -198,7 +188,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -208,8 +198,8 @@
           "id": "interactive",
           "title": "Время до полной интерактивности",
           "description": "",
-          "displayValue": "3.0 s",
-          "score": 80,
+          "displayValue": "2.7 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -219,13 +209,13 @@
     {
       "url": "https://komarovmassage.lv/en/certificates",
       "label": "EN — Сертификаты",
-      "performance": 77,
+      "performance": 78,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2187.13,
-      "cls": 0.0714534213616705,
-      "bytes": 527899,
+      "lcp": 2173.296,
+      "cls": 0.0700180514946951,
+      "bytes": 664777,
       "errors": [
         {
           "id": "heading-order",
@@ -243,7 +233,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 172 KiB",
+          "displayValue": "Potential savings of 177 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -253,7 +243,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 110 KiB",
+          "displayValue": "Potential savings of 116 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -273,7 +263,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -294,7 +284,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 30,
+          "score": 31,
           "categories": [
             "performance"
           ]
@@ -313,7 +303,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -324,7 +314,7 @@
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
           "displayValue": "2.2 s",
-          "score": 56,
+          "score": 57,
           "categories": [
             "performance"
           ]
@@ -344,13 +334,13 @@
     {
       "url": "https://komarovmassage.lv/en/vyezd",
       "label": "EN — Выезд на дом",
-      "performance": 80,
+      "performance": 81,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1986.2089999999996,
+      "lcp": 1957.9020000000005,
       "cls": 0.02154149171577006,
-      "bytes": 301677,
+      "bytes": 438441,
       "errors": [
         {
           "id": "heading-order",
@@ -368,7 +358,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 152 KiB",
+          "displayValue": "Potential savings of 158 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -378,7 +368,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 115 KiB",
+          "displayValue": "Potential savings of 121 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -388,7 +378,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -408,8 +398,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.9 s",
-          "score": 30,
+          "displayValue": "2.0 s",
+          "score": 31,
           "categories": [
             "performance"
           ]
@@ -438,8 +428,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.9 s",
-          "score": 63,
+          "displayValue": "2.0 s",
+          "score": 64,
           "categories": [
             "performance"
           ]
@@ -448,8 +438,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.9 s",
-          "score": 63,
+          "displayValue": "2.0 s",
+          "score": 64,
           "categories": [
             "performance"
           ]
@@ -459,27 +449,17 @@
     {
       "url": "https://komarovmassage.lv/lv/",
       "label": "LV — Главная",
-      "performance": 69,
+      "performance": 72,
       "seo": 100,
-      "accessibility": 91,
+      "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2975.538,
-      "cls": 0.006046963207597008,
-      "bytes": 4410505,
+      "lcp": 2670.9074999999993,
+      "cls": 0.0060034757570548184,
+      "bytes": 4274424,
       "errors": [
         {
           "id": "heading-order",
           "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "link-name",
-          "title": "У ссылок отсутствуют доступные названия",
           "description": "",
           "displayValue": "",
           "score": 0,
@@ -513,7 +493,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 571 KiB",
+          "displayValue": "Potential savings of 592 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -523,17 +503,27 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 503 KiB",
+          "displayValue": "Potential savings of 522 KiB",
           "score": 0,
           "categories": [
             "performance"
           ]
         },
         {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 61 KiB",
+          "displayValue": "Potential savings of 66 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -543,7 +533,7 @@
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
-          "displayValue": "28 requests not served via HTTP/2",
+          "displayValue": "29 requests not served via HTTP/2",
           "score": 0,
           "categories": [
             "performance"
@@ -554,7 +544,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.6 s",
-          "score": 13,
+          "score": 17,
           "categories": [
             "performance"
           ]
@@ -563,8 +553,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "3.0 s",
-          "score": 34,
+          "displayValue": "2.7 s",
+          "score": 42,
           "categories": [
             "performance"
           ]
@@ -574,7 +564,7 @@
           "title": "Индекс скорости загрузки",
           "description": "",
           "displayValue": "2.6 s",
-          "score": 40,
+          "score": 47,
           "categories": [
             "performance"
           ]
@@ -583,7 +573,7 @@
           "id": "total-byte-weight",
           "title": "Большой общий вес страницы",
           "description": "",
-          "displayValue": "Total size was 4,337 KiB",
+          "displayValue": "Total size was 4,174 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -593,7 +583,7 @@
           "id": "uses-long-cache-ttl",
           "title": "Настройте более длительное кэширование ресурсов",
           "description": "",
-          "displayValue": "11 resources found",
+          "displayValue": "12 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -613,7 +603,7 @@
           "id": "uses-responsive-images",
           "title": "Некоторые изображения имеют избыточный размер",
           "description": "",
-          "displayValue": "Potential savings of 2,567 KiB",
+          "displayValue": "Potential savings of 2,551 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -623,17 +613,7 @@
           "id": "dom-size",
           "title": "Слишком большой DOM",
           "description": "",
-          "displayValue": "1,005 elements",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
-          "description": "",
-          "displayValue": "",
+          "displayValue": "1,114 elements",
           "score": 50,
           "categories": [
             "performance"
@@ -643,7 +623,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -653,8 +633,8 @@
           "id": "interactive",
           "title": "Время до полной интерактивности",
           "description": "",
-          "displayValue": "3.0 s",
-          "score": 81,
+          "displayValue": "2.7 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -668,9 +648,9 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2186.918,
+      "lcp": 2152.01,
       "cls": 0.07349510549731196,
-      "bytes": 525609,
+      "bytes": 662487,
       "errors": [
         {
           "id": "heading-order",
@@ -688,7 +668,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 172 KiB",
+          "displayValue": "Potential savings of 178 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -698,7 +678,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 110 KiB",
+          "displayValue": "Potential savings of 116 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -718,7 +698,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -738,8 +718,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.0 s",
-          "score": 30,
+          "displayValue": "1.9 s",
+          "score": 32,
           "categories": [
             "performance"
           ]
@@ -758,7 +738,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -769,7 +749,7 @@
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
           "displayValue": "2.2 s",
-          "score": 56,
+          "score": 57,
           "categories": [
             "performance"
           ]
@@ -778,8 +758,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.0 s",
-          "score": 63,
+          "displayValue": "1.9 s",
+          "score": 64,
           "categories": [
             "performance"
           ]
@@ -793,9 +773,9 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1971.6689999999994,
+      "lcp": 1965.3730000000003,
       "cls": 0.01030885534509964,
-      "bytes": 352614,
+      "bytes": 489420,
       "errors": [
         {
           "id": "heading-order",
@@ -813,7 +793,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 152 KiB",
+          "displayValue": "Potential savings of 158 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -823,7 +803,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 115 KiB",
+          "displayValue": "Potential savings of 121 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -833,7 +813,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -854,7 +834,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 30,
+          "score": 31,
           "categories": [
             "performance"
           ]
@@ -904,27 +884,17 @@
     {
       "url": "https://komarovmassage.lv/ru/",
       "label": "RU — Главная",
-      "performance": 68,
+      "performance": 69,
       "seo": 100,
-      "accessibility": 91,
+      "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 3006.1969999999997,
-      "cls": 0.003798252610068159,
-      "bytes": 4456070,
+      "lcp": 2831.765000000001,
+      "cls": 0.004286290801854482,
+      "bytes": 4285609,
       "errors": [
         {
           "id": "heading-order",
           "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "link-name",
-          "title": "У ссылок отсутствуют доступные названия",
           "description": "",
           "displayValue": "",
           "score": 0,
@@ -958,7 +928,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 582 KiB",
+          "displayValue": "Potential savings of 604 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -968,27 +938,27 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 503 KiB",
+          "displayValue": "Potential savings of 522 KiB",
           "score": 0,
           "categories": [
             "performance"
           ]
         },
         {
-          "id": "unminified-css",
-          "title": "Minify CSS",
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
           "description": "",
-          "displayValue": "Potential savings of 61 KiB",
+          "displayValue": "",
           "score": 0,
           "categories": [
-            "performance"
+            "accessibility"
           ]
         },
         {
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
-          "displayValue": "26 requests not served via HTTP/2",
+          "displayValue": "29 requests not served via HTTP/2",
           "score": 0,
           "categories": [
             "performance"
@@ -998,7 +968,7 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.6 s",
+          "displayValue": "2.8 s",
           "score": 12,
           "categories": [
             "performance"
@@ -1008,8 +978,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "3.0 s",
-          "score": 33,
+          "displayValue": "2.9 s",
+          "score": 37,
           "categories": [
             "performance"
           ]
@@ -1018,8 +988,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.9 s",
-          "score": 39,
+          "displayValue": "2.8 s",
+          "score": 38,
           "categories": [
             "performance"
           ]
@@ -1028,7 +998,7 @@
           "id": "total-byte-weight",
           "title": "Большой общий вес страницы",
           "description": "",
-          "displayValue": "Total size was 4,352 KiB",
+          "displayValue": "Total size was 4,185 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1038,7 +1008,7 @@
           "id": "uses-long-cache-ttl",
           "title": "Настройте более длительное кэширование ресурсов",
           "description": "",
-          "displayValue": "11 resources found",
+          "displayValue": "12 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -1058,7 +1028,7 @@
           "id": "uses-responsive-images",
           "title": "Некоторые изображения имеют избыточный размер",
           "description": "",
-          "displayValue": "Potential savings of 2,538 KiB",
+          "displayValue": "Potential savings of 2,551 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1068,17 +1038,17 @@
           "id": "dom-size",
           "title": "Слишком большой DOM",
           "description": "",
-          "displayValue": "1,005 elements",
+          "displayValue": "1,114 elements",
           "score": 50,
           "categories": [
             "performance"
           ]
         },
         {
-          "id": "unsized-images",
-          "title": "Image elements do not have explicit `width` and `height`",
+          "id": "unminified-css",
+          "title": "Minify CSS",
           "description": "",
-          "displayValue": "",
+          "displayValue": "Potential savings of 66 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1088,7 +1058,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1098,8 +1068,8 @@
           "id": "interactive",
           "title": "Время до полной интерактивности",
           "description": "",
-          "displayValue": "3.0 s",
-          "score": 80,
+          "displayValue": "2.9 s",
+          "score": 83,
           "categories": [
             "performance"
           ]
@@ -1113,9 +1083,9 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2478.6240000000003,
+      "lcp": 2487.26,
       "cls": 0.1435740464420669,
-      "bytes": 555118,
+      "bytes": 691998,
       "errors": [
         {
           "id": "heading-order",
@@ -1133,7 +1103,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 176 KiB",
+          "displayValue": "Potential savings of 182 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1143,7 +1113,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 110 KiB",
+          "displayValue": "Potential savings of 116 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1163,7 +1133,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1183,8 +1153,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.0 s",
-          "score": 26,
+          "displayValue": "2.1 s",
+          "score": 25,
           "categories": [
             "performance"
           ]
@@ -1193,7 +1163,7 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.4 s",
+          "displayValue": "2.3 s",
           "score": 47,
           "categories": [
             "performance"
@@ -1213,7 +1183,7 @@
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
-          "displayValue": "Potential savings of 15 KiB",
+          "displayValue": "Potential savings of 16 KiB",
           "score": 50,
           "categories": [
             "performance"
@@ -1223,8 +1193,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.0 s",
-          "score": 58,
+          "displayValue": "2.1 s",
+          "score": 57,
           "categories": [
             "performance"
           ]
@@ -1243,7 +1213,7 @@
           "id": "interactive",
           "title": "Время до полной интерактивности",
           "description": "",
-          "displayValue": "2.4 s",
+          "displayValue": "2.3 s",
           "score": 89,
           "categories": [
             "performance"
@@ -1258,9 +1228,9 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1987.4620000000002,
+      "lcp": 2015.492,
       "cls": 0.01250485596461869,
-      "bytes": 346832,
+      "bytes": 483712,
       "errors": [
         {
           "id": "heading-order",
@@ -1278,7 +1248,7 @@
           "id": "uses-text-compression",
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
-          "displayValue": "Potential savings of 153 KiB",
+          "displayValue": "Potential savings of 158 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1288,7 +1258,7 @@
           "id": "unused-css-rules",
           "title": "Неиспользуемые CSS-стили",
           "description": "",
-          "displayValue": "Potential savings of 115 KiB",
+          "displayValue": "Potential savings of 121 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1298,7 +1268,7 @@
           "id": "unminified-css",
           "title": "Minify CSS",
           "description": "",
-          "displayValue": "Potential savings of 35 KiB",
+          "displayValue": "Potential savings of 38 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -1319,7 +1289,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 30,
+          "score": 29,
           "categories": [
             "performance"
           ]
@@ -1349,7 +1319,7 @@
           "title": "Индекс скорости загрузки",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 63,
+          "score": 61,
           "categories": [
             "performance"
           ]
@@ -1359,7 +1329,7 @@
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 63,
+          "score": 62,
           "categories": [
             "performance"
           ]
@@ -1474,6 +1444,18 @@
       "lcp": 2187.13,
       "bytes": 527899,
       "errors": 18,
+      "warnings": 104
+    },
+    {
+      "timestamp": "2026-10-10T11:02:16.838Z",
+      "run": "16",
+      "performance": 75,
+      "seo": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "lcp": 2173.296,
+      "bytes": 664777,
+      "errors": 15,
       "warnings": 104
     }
   ]

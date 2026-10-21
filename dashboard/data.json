@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-20T09:53:42.227Z",
+  "generatedAt": "2026-10-21T09:54:14.241Z",
   "summary": {
-    "performance": 79,
+    "performance": 80,
     "seo": 100,
     "accessibility": 97,
     "bestPractices": 100,
-    "lcp": 2114.6870000000004,
+    "lcp": 2070.322,
     "bytes": 664777,
     "errors": 15,
-    "warnings": 101
+    "warnings": 100
   },
   "pages": [
     {
       "url": "https://komarovmassage.lv/en/",
       "label": "EN — Главная",
-      "performance": 77,
+      "performance": 76,
       "seo": 100,
       "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2237.7199999999993,
+      "lcp": 2286.2509999999993,
       "cls": 0.005041699133031474,
-      "bytes": 4198031,
+      "bytes": 4198008,
       "errors": [
         {
           "id": "heading-order",
@@ -85,6 +85,16 @@
           ]
         },
         {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 66 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
@@ -99,7 +109,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 27,
+          "score": 23,
           "categories": [
             "performance"
           ]
@@ -155,16 +165,6 @@
           ]
         },
         {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "",
-          "displayValue": "Potential savings of 66 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
@@ -178,8 +178,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.2 s",
-          "score": 55,
+          "displayValue": "2.3 s",
+          "score": 53,
           "categories": [
             "performance"
           ]
@@ -189,7 +189,7 @@
           "title": "Индекс скорости загрузки",
           "description": "",
           "displayValue": "2.0 s",
-          "score": 60,
+          "score": 55,
           "categories": [
             "performance"
           ]
@@ -203,8 +203,8 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2072.4629999999997,
-      "cls": 0.044966156309588515,
+      "lcp": 2051.5089999999996,
+      "cls": 0.0700180514946951,
       "bytes": 664777,
       "errors": [
         {
@@ -224,6 +224,431 @@
           "title": "Включите сжатие текстовых ресурсов",
           "description": "",
           "displayValue": "Potential savings of 177 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 116 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 133 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 38 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "11 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.8 s",
+          "score": 44,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "8 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 16 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.1 s",
+          "score": 61,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.8 s",
+          "score": 75,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/en/vyezd",
+      "label": "EN — Выезд на дом",
+      "performance": 85,
+      "seo": 100,
+      "accessibility": 98,
+      "bestPractices": 100,
+      "lcp": 1730.3279999999997,
+      "cls": 0.02154149171577006,
+      "bytes": 438441,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 158 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 121 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 38 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "9 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 42,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "7 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 13 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 72,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "1.7 s",
+          "score": 74,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/lv/",
+      "label": "LV — Главная",
+      "performance": 76,
+      "seo": 100,
+      "accessibility": 94,
+      "bestPractices": 100,
+      "lcp": 2273.4710000000005,
+      "cls": 0.00607236564315822,
+      "bytes": 4274424,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "target-size",
+          "title": "Touch targets do not have sufficient size or spacing.",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "aria-allowed-role",
+          "title": "Uses ARIA roles on incompatible elements",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 592 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Неиспользуемые CSS-стили",
+          "description": "",
+          "displayValue": "Potential savings of 522 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        },
+        {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 66 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-http2",
+          "title": "Use HTTP/2",
+          "description": "",
+          "displayValue": "29 requests not served via HTTP/2",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "first-contentful-paint",
+          "title": "Первое отображение содержимого (FCP)",
+          "description": "",
+          "displayValue": "2.2 s",
+          "score": 23,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "total-byte-weight",
+          "title": "Большой общий вес страницы",
+          "description": "",
+          "displayValue": "Total size was 4,174 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-long-cache-ttl",
+          "title": "Настройте более длительное кэширование ресурсов",
+          "description": "",
+          "displayValue": "12 resources found",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "font-display",
+          "title": "Настройте отображение веб-шрифтов",
+          "description": "",
+          "displayValue": "",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "uses-responsive-images",
+          "title": "Некоторые изображения имеют избыточный размер",
+          "description": "",
+          "displayValue": "Potential savings of 2,551 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "dom-size",
+          "title": "Слишком большой DOM",
+          "description": "",
+          "displayValue": "1,114 elements",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 16 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Отображение самого крупного элемента (LCP)",
+          "description": "",
+          "displayValue": "2.3 s",
+          "score": 53,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "2.2 s",
+          "score": 55,
+          "categories": [
+            "performance"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://komarovmassage.lv/lv/certificates",
+      "label": "LV — Сертификаты",
+      "performance": 81,
+      "seo": 100,
+      "accessibility": 98,
+      "bestPractices": 100,
+      "lcp": 2070.322,
+      "cls": 0.07172191930852033,
+      "bytes": 662487,
+      "errors": [
+        {
+          "id": "heading-order",
+          "title": "Нарушен порядок заголовков",
+          "description": "",
+          "displayValue": "",
+          "score": 0,
+          "categories": [
+            "accessibility"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "uses-text-compression",
+          "title": "Включите сжатие текстовых ресурсов",
+          "description": "",
+          "displayValue": "Potential savings of 178 KiB",
           "score": 0,
           "categories": [
             "performance"
@@ -322,439 +747,14 @@
       ]
     },
     {
-      "url": "https://komarovmassage.lv/en/vyezd",
-      "label": "EN — Выезд на дом",
-      "performance": 83,
-      "seo": 100,
-      "accessibility": 98,
-      "bestPractices": 100,
-      "lcp": 1799.8880000000001,
-      "cls": 0.02154149171577006,
-      "bytes": 438441,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Включите сжатие текстовых ресурсов",
-          "description": "",
-          "displayValue": "Potential savings of 158 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Неиспользуемые CSS-стили",
-          "description": "",
-          "displayValue": "Potential savings of 121 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "",
-          "displayValue": "Potential savings of 38 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "",
-          "displayValue": "9 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "Первое отображение содержимого (FCP)",
-          "description": "",
-          "displayValue": "1.7 s",
-          "score": 38,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Настройте более длительное кэширование ресурсов",
-          "description": "",
-          "displayValue": "7 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "",
-          "displayValue": "Potential savings of 13 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Отображение самого крупного элемента (LCP)",
-          "description": "",
-          "displayValue": "1.7 s",
-          "score": 70,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Индекс скорости загрузки",
-          "description": "",
-          "displayValue": "1.7 s",
-          "score": 71,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
-      "url": "https://komarovmassage.lv/lv/",
-      "label": "LV — Главная",
-      "performance": 76,
-      "seo": 100,
-      "accessibility": 94,
-      "bestPractices": 100,
-      "lcp": 2324.6669999999995,
-      "cls": 0.0060034757570548184,
-      "bytes": 4274447,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "target-size",
-          "title": "Touch targets do not have sufficient size or spacing.",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "aria-allowed-role",
-          "title": "Uses ARIA roles on incompatible elements",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Включите сжатие текстовых ресурсов",
-          "description": "",
-          "displayValue": "Potential savings of 592 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Неиспользуемые CSS-стили",
-          "description": "",
-          "displayValue": "Potential savings of 522 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "label-content-name-mismatch",
-          "title": "Elements with visible text labels do not have matching accessible names.",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        },
-        {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "",
-          "displayValue": "29 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "Первое отображение содержимого (FCP)",
-          "description": "",
-          "displayValue": "2.1 s",
-          "score": 27,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "total-byte-weight",
-          "title": "Большой общий вес страницы",
-          "description": "",
-          "displayValue": "Total size was 4,174 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Настройте более длительное кэширование ресурсов",
-          "description": "",
-          "displayValue": "12 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "font-display",
-          "title": "Настройте отображение веб-шрифтов",
-          "description": "",
-          "displayValue": "",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-responsive-images",
-          "title": "Некоторые изображения имеют избыточный размер",
-          "description": "",
-          "displayValue": "Potential savings of 2,551 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "dom-size",
-          "title": "Слишком большой DOM",
-          "description": "",
-          "displayValue": "1,114 elements",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "",
-          "displayValue": "Potential savings of 66 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "",
-          "displayValue": "Potential savings of 16 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Отображение самого крупного элемента (LCP)",
-          "description": "",
-          "displayValue": "2.3 s",
-          "score": 52,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Индекс скорости загрузки",
-          "description": "",
-          "displayValue": "2.3 s",
-          "score": 53,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
-      "url": "https://komarovmassage.lv/lv/certificates",
-      "label": "LV — Сертификаты",
-      "performance": 81,
-      "seo": 100,
-      "accessibility": 98,
-      "bestPractices": 100,
-      "lcp": 2114.6870000000004,
-      "cls": 0.07172191930852033,
-      "bytes": 662487,
-      "errors": [
-        {
-          "id": "heading-order",
-          "title": "Нарушен порядок заголовков",
-          "description": "",
-          "displayValue": "",
-          "score": 0,
-          "categories": [
-            "accessibility"
-          ]
-        }
-      ],
-      "warnings": [
-        {
-          "id": "uses-text-compression",
-          "title": "Включите сжатие текстовых ресурсов",
-          "description": "",
-          "displayValue": "Potential savings of 178 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unused-css-rules",
-          "title": "Неиспользуемые CSS-стили",
-          "description": "",
-          "displayValue": "Potential savings of 116 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-responsive-images",
-          "title": "Некоторые изображения имеют избыточный размер",
-          "description": "",
-          "displayValue": "Potential savings of 133 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "",
-          "displayValue": "Potential savings of 38 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-http2",
-          "title": "Use HTTP/2",
-          "description": "",
-          "displayValue": "11 requests not served via HTTP/2",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "first-contentful-paint",
-          "title": "Первое отображение содержимого (FCP)",
-          "description": "",
-          "displayValue": "1.8 s",
-          "score": 41,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "uses-long-cache-ttl",
-          "title": "Настройте более длительное кэширование ресурсов",
-          "description": "",
-          "displayValue": "8 resources found",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "",
-          "displayValue": "Potential savings of 16 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Отображение самого крупного элемента (LCP)",
-          "description": "",
-          "displayValue": "2.1 s",
-          "score": 59,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Индекс скорости загрузки",
-          "description": "",
-          "displayValue": "1.8 s",
-          "score": 73,
-          "categories": [
-            "performance"
-          ]
-        }
-      ]
-    },
-    {
       "url": "https://komarovmassage.lv/lv/vyezd",
       "label": "LV — Выезд на дом",
-      "performance": 85,
+      "performance": 84,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1704.2400000000002,
-      "cls": 0.01030885534509964,
+      "lcp": 1753.4369999999997,
+      "cls": 0.010163636447746557,
       "bytes": 489420,
       "errors": [
         {
@@ -813,8 +813,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.7 s",
-          "score": 44,
+          "displayValue": "1.8 s",
+          "score": 41,
           "categories": [
             "performance"
           ]
@@ -843,8 +843,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.7 s",
-          "score": 73,
+          "displayValue": "1.8 s",
+          "score": 71,
           "categories": [
             "performance"
           ]
@@ -853,8 +853,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.7 s",
-          "score": 75,
+          "displayValue": "1.8 s",
+          "score": 73,
           "categories": [
             "performance"
           ]
@@ -864,12 +864,12 @@
     {
       "url": "https://komarovmassage.lv/ru/",
       "label": "RU — Главная",
-      "performance": 74,
+      "performance": 75,
       "seo": 100,
       "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2494.15,
-      "cls": 0.0044434859731873515,
+      "lcp": 2411.472499999999,
+      "cls": 0.004408894045454178,
       "bytes": 4285609,
       "errors": [
         {
@@ -935,6 +935,16 @@
           ]
         },
         {
+          "id": "unminified-css",
+          "title": "Minify CSS",
+          "description": "",
+          "displayValue": "Potential savings of 66 KiB",
+          "score": 0,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
@@ -948,8 +958,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.4 s",
-          "score": 21,
+          "displayValue": "2.1 s",
+          "score": 24,
           "categories": [
             "performance"
           ]
@@ -958,8 +968,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.6 s",
-          "score": 47,
+          "displayValue": "2.4 s",
+          "score": 49,
           "categories": [
             "performance"
           ]
@@ -1015,16 +1025,6 @@
           ]
         },
         {
-          "id": "unminified-css",
-          "title": "Minify CSS",
-          "description": "",
-          "displayValue": "Potential savings of 66 KiB",
-          "score": 50,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "unminified-javascript",
           "title": "Minify JavaScript",
           "description": "",
@@ -1038,18 +1038,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.6 s",
-          "score": 53,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "interactive",
-          "title": "Время до полной интерактивности",
-          "description": "",
-          "displayValue": "2.6 s",
-          "score": 89,
+          "displayValue": "2.2 s",
+          "score": 54,
           "categories": [
             "performance"
           ]
@@ -1059,12 +1049,12 @@
     {
       "url": "https://komarovmassage.lv/ru/certificates",
       "label": "RU — Сертификаты",
-      "performance": 73,
+      "performance": 76,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 2270.6839999999997,
-      "cls": 0.1435740464420669,
+      "lcp": 2185.228,
+      "cls": 0.11744953766255004,
       "bytes": 691998,
       "errors": [
         {
@@ -1133,8 +1123,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.1 s",
-          "score": 33,
+          "displayValue": "1.8 s",
+          "score": 36,
           "categories": [
             "performance"
           ]
@@ -1163,8 +1153,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.5 s",
-          "score": 54,
+          "displayValue": "2.2 s",
+          "score": 56,
           "categories": [
             "performance"
           ]
@@ -1173,8 +1163,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.1 s",
-          "score": 66,
+          "displayValue": "1.8 s",
+          "score": 69,
           "categories": [
             "performance"
           ]
@@ -1183,8 +1173,8 @@
           "id": "cumulative-layout-shift",
           "title": "Смещение элементов страницы (CLS)",
           "description": "",
-          "displayValue": "0.144",
-          "score": 78,
+          "displayValue": "0.048",
+          "score": 85,
           "categories": [
             "performance"
           ]
@@ -1198,8 +1188,8 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1702.268,
-      "cls": 0.012172915038218726,
+      "lcp": 1696.8910000000003,
+      "cls": 0.01250485596461869,
       "bytes": 483712,
       "errors": [
         {
@@ -1298,7 +1288,7 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.7 s",
+          "displayValue": "1.8 s",
           "score": 75,
           "categories": [
             "performance"
@@ -1547,6 +1537,18 @@
       "bytes": 664777,
       "errors": 15,
       "warnings": 101
+    },
+    {
+      "timestamp": "2026-10-21T09:54:14.235Z",
+      "run": "27",
+      "performance": 80,
+      "seo": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "lcp": 2070.322,
+      "bytes": 664777,
+      "errors": 15,
+      "warnings": 100
     }
   ]
 }

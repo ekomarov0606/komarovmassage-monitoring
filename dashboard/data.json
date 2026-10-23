@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-22T09:55:38.939Z",
+  "generatedAt": "2026-10-23T09:50:10.305Z",
   "summary": {
-    "performance": 82,
+    "performance": 83,
     "seo": 100,
     "accessibility": 97,
     "bestPractices": 100,
-    "lcp": 1810.7539999999995,
+    "lcp": 1855.598,
     "bytes": 664777,
     "errors": 15,
-    "warnings": 102
+    "warnings": 101
   },
   "pages": [
     {
       "url": "https://komarovmassage.lv/en/",
       "label": "EN — Главная",
-      "performance": 75,
+      "performance": 77,
       "seo": 100,
       "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2358.584,
+      "lcp": 2292.2749999999996,
       "cls": 0.005565106738513865,
       "bytes": 4198009,
       "errors": [
@@ -98,8 +98,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.2 s",
-          "score": 22,
+          "displayValue": "2.0 s",
+          "score": 30,
           "categories": [
             "performance"
           ]
@@ -178,8 +178,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.4 s",
-          "score": 51,
+          "displayValue": "2.3 s",
+          "score": 53,
           "categories": [
             "performance"
           ]
@@ -188,8 +188,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.2 s",
-          "score": 53,
+          "displayValue": "2.0 s",
+          "score": 62,
           "categories": [
             "performance"
           ]
@@ -203,7 +203,7 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1757.4809999999998,
+      "lcp": 1855.598,
       "cls": 0.0714534213616705,
       "bytes": 664777,
       "errors": [
@@ -293,8 +293,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 58,
+          "displayValue": "1.4 s",
+          "score": 61,
           "categories": [
             "performance"
           ]
@@ -303,8 +303,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.8 s",
-          "score": 71,
+          "displayValue": "1.9 s",
+          "score": 68,
           "categories": [
             "performance"
           ]
@@ -313,8 +313,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 85,
+          "displayValue": "1.4 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -328,7 +328,7 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1452.229,
+      "lcp": 1424.5579999999998,
       "cls": 0.02154149171577006,
       "bytes": 438441,
       "errors": [
@@ -408,8 +408,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 59,
+          "displayValue": "1.4 s",
+          "score": 60,
           "categories": [
             "performance"
           ]
@@ -418,8 +418,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 82,
+          "displayValue": "1.4 s",
+          "score": 83,
           "categories": [
             "performance"
           ]
@@ -428,8 +428,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 85,
+          "displayValue": "1.4 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -439,11 +439,11 @@
     {
       "url": "https://komarovmassage.lv/lv/",
       "label": "LV — Главная",
-      "performance": 74,
+      "performance": 75,
       "seo": 100,
       "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2501.7920000000004,
+      "lcp": 2428.3860000000004,
       "cls": 0.0060034757570548184,
       "bytes": 4274425,
       "errors": [
@@ -533,8 +533,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.2 s",
-          "score": 22,
+          "displayValue": "2.1 s",
+          "score": 24,
           "categories": [
             "performance"
           ]
@@ -543,8 +543,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.5 s",
-          "score": 46,
+          "displayValue": "2.4 s",
+          "score": 49,
           "categories": [
             "performance"
           ]
@@ -613,18 +613,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "2.2 s",
-          "score": 54,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "interactive",
-          "title": "Время до полной интерактивности",
-          "description": "",
-          "displayValue": "2.5 s",
-          "score": 89,
+          "displayValue": "2.1 s",
+          "score": 56,
           "categories": [
             "performance"
           ]
@@ -634,11 +624,11 @@
     {
       "url": "https://komarovmassage.lv/lv/certificates",
       "label": "LV — Сертификаты",
-      "performance": 86,
+      "performance": 87,
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1810.7539999999995,
+      "lcp": 1737.386,
       "cls": 0.07349510549731196,
       "bytes": 662487,
       "errors": [
@@ -728,8 +718,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 59,
+          "displayValue": "1.3 s",
+          "score": 62,
           "categories": [
             "performance"
           ]
@@ -738,8 +728,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.9 s",
-          "score": 69,
+          "displayValue": "1.7 s",
+          "score": 72,
           "categories": [
             "performance"
           ]
@@ -748,8 +738,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 85,
+          "displayValue": "1.3 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -763,8 +753,8 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1453.815,
-      "cls": 0.01030885534509964,
+      "lcp": 1408.246,
+      "cls": 0.010028225265200117,
       "bytes": 489420,
       "errors": [
         {
@@ -823,7 +813,7 @@
           "id": "uses-long-cache-ttl",
           "title": "Настройте более длительное кэширование ресурсов",
           "description": "",
-          "displayValue": "7 resources found",
+          "displayValue": "10 resources found",
           "score": 50,
           "categories": [
             "performance"
@@ -843,8 +833,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 59,
+          "displayValue": "1.4 s",
+          "score": 61,
           "categories": [
             "performance"
           ]
@@ -853,8 +843,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 82,
+          "displayValue": "1.4 s",
+          "score": 83,
           "categories": [
             "performance"
           ]
@@ -863,8 +853,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 85,
+          "displayValue": "1.4 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -874,13 +864,13 @@
     {
       "url": "https://komarovmassage.lv/ru/",
       "label": "RU — Главная",
-      "performance": 72,
+      "performance": 73,
       "seo": 100,
       "accessibility": 94,
       "bestPractices": 100,
-      "lcp": 2692.7159999999994,
+      "lcp": 2573.0609999999997,
       "cls": 0.004286290801854482,
-      "bytes": 4285633,
+      "bytes": 4285610,
       "errors": [
         {
           "id": "heading-order",
@@ -955,16 +945,6 @@
           ]
         },
         {
-          "id": "unminified-javascript",
-          "title": "Minify JavaScript",
-          "description": "",
-          "displayValue": "Potential savings of 16 KiB",
-          "score": 0,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
           "id": "uses-http2",
           "title": "Use HTTP/2",
           "description": "",
@@ -978,8 +958,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "2.4 s",
-          "score": 17,
+          "displayValue": "2.3 s",
+          "score": 20,
           "categories": [
             "performance"
           ]
@@ -988,18 +968,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "2.7 s",
-          "score": 41,
-          "categories": [
-            "performance"
-          ]
-        },
-        {
-          "id": "speed-index",
-          "title": "Индекс скорости загрузки",
-          "description": "",
-          "displayValue": "2.4 s",
-          "score": 47,
+          "displayValue": "2.6 s",
+          "score": 44,
           "categories": [
             "performance"
           ]
@@ -1055,11 +1025,31 @@
           ]
         },
         {
+          "id": "unminified-javascript",
+          "title": "Minify JavaScript",
+          "description": "",
+          "displayValue": "Potential savings of 16 KiB",
+          "score": 50,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
+          "id": "speed-index",
+          "title": "Индекс скорости загрузки",
+          "description": "",
+          "displayValue": "2.3 s",
+          "score": 51,
+          "categories": [
+            "performance"
+          ]
+        },
+        {
           "id": "interactive",
           "title": "Время до полной интерактивности",
           "description": "",
-          "displayValue": "2.7 s",
-          "score": 86,
+          "displayValue": "2.6 s",
+          "score": 88,
           "categories": [
             "performance"
           ]
@@ -1073,7 +1063,7 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1937.4789999999998,
+      "lcp": 1939.387,
       "cls": 0.1435740464420669,
       "bytes": 691998,
       "errors": [
@@ -1164,7 +1154,7 @@
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
           "displayValue": "1.5 s",
-          "score": 54,
+          "score": 55,
           "categories": [
             "performance"
           ]
@@ -1208,8 +1198,8 @@
       "seo": 100,
       "accessibility": 98,
       "bestPractices": 100,
-      "lcp": 1452.189,
-      "cls": 0.014584360654548777,
+      "lcp": 1427.2520000000002,
+      "cls": 0.01250485596461869,
       "bytes": 483712,
       "errors": [
         {
@@ -1288,8 +1278,8 @@
           "id": "first-contentful-paint",
           "title": "Первое отображение содержимого (FCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 59,
+          "displayValue": "1.4 s",
+          "score": 60,
           "categories": [
             "performance"
           ]
@@ -1298,8 +1288,8 @@
           "id": "largest-contentful-paint",
           "title": "Отображение самого крупного элемента (LCP)",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 82,
+          "displayValue": "1.4 s",
+          "score": 83,
           "categories": [
             "performance"
           ]
@@ -1308,8 +1298,8 @@
           "id": "speed-index",
           "title": "Индекс скорости загрузки",
           "description": "",
-          "displayValue": "1.5 s",
-          "score": 85,
+          "displayValue": "1.4 s",
+          "score": 86,
           "categories": [
             "performance"
           ]
@@ -1581,6 +1571,18 @@
       "bytes": 664777,
       "errors": 15,
       "warnings": 102
+    },
+    {
+      "timestamp": "2026-10-23T09:50:10.296Z",
+      "run": "29",
+      "performance": 83,
+      "seo": 100,
+      "accessibility": 97,
+      "bestPractices": 100,
+      "lcp": 1855.598,
+      "bytes": 664777,
+      "errors": 15,
+      "warnings": 101
     }
   ]
 }

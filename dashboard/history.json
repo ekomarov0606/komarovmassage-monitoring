@@ -514,5 +514,17 @@
     "bytes": 478914,
     "errors": 15,
     "warnings": 67
+  },
+  {
+    "timestamp": "2026-11-13T12:56:21.692Z",
+    "run": "50",
+    "performance": 91,
+    "seo": 100,
+    "accessibility": 97,
+    "bestPractices": 100,
+    "lcp": 1298.5319999999997,
+    "bytes": 478912,
+    "errors": 15,
+    "warnings": 61
   }
 ]
